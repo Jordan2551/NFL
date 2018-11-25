@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  group_leader: one
+  player_list: MyText
+
+two:
+  name: MyString
+  group_leader: two
+  player_list: MyText

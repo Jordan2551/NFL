@@ -1,0 +1,42 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+
+User.create({:email => "admin@gmail.com", :password => "123456", :password_confirmation => "123456" })
+Team.create(name: "Arizona", nickname: "Cardinals", abbrv: "ARI")
+Team.create(name: "Atlanta", nickname: "Falcons", abbrv: "ATL")
+Team.create(name: "Baltimore", nickname: "Ravens", abbrv: "BAL")
+Team.create(name: "Buffalo", nickname: "Bills", abbrv: "BUF")
+Team.create(name: "Carolina", nickname: "Panthers", abbrv: "CAR")
+Team.create(name: "Chicago", nickname: "Bears", abbrv: "CHI")
+Team.create(name: "Cincinnati", nickname: "Bengals", abbrv: "CIN")
+Team.create(name: "Cleveland", nickname: "Browns", abbrv: "CLE")
+Team.create(name: "Dallas", nickname: "Cowboys", abbrv: "DAL")
+Team.create(name: "Denver", nickname: "Broncos", abbrv: "DEN")
+Team.create(name: "Detroit", nickname: "Lions", abbrv: "DET")
+Team.create(name: "Green Bay", nickname: "Packers", abbrv: "GB")
+Team.create(name: "Houston", nickname: "Texans", abbrv: "HOU")
+Team.create(name: "Indianapolis", nickname: "Colts", abbrv: "IND")
+Team.create(name: "Jacksonville", nickname: "Jaguars", abbrv: "JAC")
+Team.create(name: "Kansas City", nickname: "Chiefs", abbrv: "KC")
+Team.create(name: "Miami", nickname: "Dolphins", abbrv: "MIA")
+Team.create(name: "Minnesota", nickname: "Vikings", abbrv: "MIN")
+Team.create(name: "N.Y. Giants", nickname: "Giants", abbrv: "NYG")
+Team.create(name: "N.Y. Jets", nickname: "Jets", abbrv: "NYJ")
+Team.create(name: "New England", nickname: "Patriots", abbrv: "NE")
+Team.create(name: "New Orleans", nickname: "Saints", abbrv: "NO")
+Team.create(name: "Oakland", nickname: "Raiders", abbrv: "OAK")
+Team.create(name: "Philadelphia", nickname: "Eagles", abbrv: "PHI")
+Team.create(name: "Pittsburgh", nickname: "Steelers", abbrv: "PIT")
+Team.create(name: "San Diego", nickname: "Chargers", abbrv: "SD")
+Team.create(name: "San Francisco", nickname: "49ers", abbrv: "SF")
+Team.create(name: "Seattle", nickname: "Seahawks", abbrv: "SEA")
+Team.create(name: "St. Louis", nickname: "Rams", abbrv: "STL")
+Team.create(name: "Tampa Bay", nickname: "Buccaneers", abbrv: "TB")
+Team.create(name: "Tennessee", nickname: "Titans", abbrv: "TEN")
+Team.create(name: "Washington", nickname: "Redskins", abbrv: "WAS")
+
+
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
